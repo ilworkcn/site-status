@@ -12,7 +12,7 @@ const SiteStatus = ({ siteData, days, status }) => {
   const [siteDetailsData, setSiteDetailsData] = useState(null);
 
   // 是否显示链接
-  const isShowLinks = import.meta.env.VITE_SHOW_LINKS === "true";
+  const isShowLinks = import.meta.env.VITE_SHOW_LINKS === "false";
 
   // 开启弹窗
   const showSiteDetails = (data) => {
